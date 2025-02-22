@@ -82,18 +82,18 @@ Achieved 85% accuracy on a test subset.
 3. CNN Feature Extraction for CT Scans (✅ Ongoing)
 Implementing ResNet-3D on LUNA16 dataset.
 Current progress: Trained on 5,000 CT images with preliminary accuracy 82%.
-4. Feature Fusion Layer (⚠️ In Progress)
+4. Feature Fusion Layer ()
 Concatenation and attention-based fusion layer implemented.
 Fine-tuning weights for better modality correlation.
-5. Classification Model (⚠️ Initial Testing)
+5. Classification Model ()
 Initial model combines X-ray & CT scan features into a 512-dimensional latent space.
 Current test accuracy: ~88% on pneumonia detection.
-6. Explainability Module (🔜 Next Phase)
+6. Explainability Module ()
 Grad-CAM heatmaps successfully generated for X-rays.
 3D Grad-CAM for CT scans in the research phase.
-7. Web App Prototype (⚠️ Basic Interface Ready)
+7. Web App Prototype ()
 Flask API built for image upload & prediction.
 React-based UI under development.
-8. Deployment (🔜 Next Phase)
+8. Deployment ()
 Initial Docker containerization done for local testing.
 Cloud deployment pending (AWS/GCP).
